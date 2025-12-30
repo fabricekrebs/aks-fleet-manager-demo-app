@@ -5,7 +5,6 @@ metadata:
   labels:
     app.kubernetes.io/name: aks-fleet-manager-demo-app
     kubernetes.azure.com/generator: draft
-  namespace: aks-fleet-manager-demo-app
 spec:
   replicas: 2
   selector:

@@ -2,7 +2,6 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: aks-fleet-manager-demo-app-config
-  namespace: aks-fleet-manager-demo-app
   labels:
     app.kubernetes.io/name: aks-fleet-manager-demo-app
     kubernetes.azure.com/generator: draft
