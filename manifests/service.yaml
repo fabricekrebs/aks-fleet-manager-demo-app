@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: aks-fleet-manager-demo-app
+  namespace: aks-fleet-manager-demo-app
+  labels:
+    app.kubernetes.io/name: aks-fleet-manager-demo-app
+    kubernetes.azure.com/generator: draft
+spec:
+  type: LoadBalancer
+  selector:
+    app.kubernetes.io/name: aks-fleet-manager-demo-app
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
