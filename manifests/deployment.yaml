@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: aks-fleet-manager-demo-app
-          image: acritalynorth01.azurecr.io/image-workflow-1767086088668:latest
+          image: acritalynorth01.azurecr.io/image-workflow-1767092799580:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
